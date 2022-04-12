@@ -1,0 +1,6 @@
+TOP - 5 mil width, 5 mil spacing (with reference to TOP_GND) - 90 ohm differential impedance
+TOP_GND
+TOP_SIG - 5 mil width, 6 mil spacing (with reference to BOT_GND and TOP_GND) - 90 ohm differential impedance
+BOT_SIG - 5 mil width, 6 mil spacing (with reference to BOT_GND and TOP_GND) - 90 ohm differential impedance
+BOT_GND
+BOT
