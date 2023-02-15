@@ -1,0 +1,22 @@
+Query,Qty,Manufacturer,MPN,Part Description,Description,Schematic Reference
+,,,,,,
+GCM155C71A105KE38D,3,Murata,GCM155C71A105KE38D,"Multilayer Ceramic Capacitor, 1 uF, 10 V, ± 10%, X7S, 0402 [1005 Metric]",CAP CER 1UF 10V X7S 0402,"C1, C9, C10"
+GRM152R61A104KE19D,2,Murata,GRM152R61A104KE19D,"Multilayer Ceramic Capacitor, 0.1 uF, 10 V, ± 10%, X5R, 0402 [1005 Metric]",CAP CER 0.1UF 10V X5R 0402,"C2, C5"
+ZRB15XR61A475KE01D,2,Murata,ZRB15XR61A475KE01D,"Multilayer Ceramic Capacitor, 4.7 uF, 10 V, ± 10%, X5R, 0402 [1005 Metric]",CAP CER 4.7UF 10V X5R 0402,"C3, C4"
+GCM155R71E103KA37D,1,Murata,GCM155R71E103KA37D,"Multilayer Ceramic Capacitor, 0.01 uF, 25 V, ± 10%, X7R, 0402 [1005 Metric]",CAP CER 10000PF 25V X7R 0402,C6
+LTST-C171GKT,1,Lite-On,LTST-C171GKT,LED Low-Power Uni-Color Green 565nm 2.1V 2-Pin Chip LED T/R,LED,D1
+LTST-C171KSKT,1,Lite-On,LTST-C171KSKT,Yellow 2 x 1.25 x 0.8 mm 130° Water Clear 50 mcd 2 V LED Surface Mount,LED,D2
+UJ32-C-H-G-SMT-TR,2,CUI Devices,UJ32-C-H-G-SMT-TR,"Type C, USB 3.2 Gen 2x2, 20 Gbps, 20 Vac, 5 A, Horizontal, Gold Flash, Surface Mount, USB Receptacle","Type C, USB 3.1 Gen 2, 5 A, Right Angle, Surface Mount _SMT_ , USB Receptacle","J1, J3"
+USB4155-03-C,1,Global Connector Technology,USB4155-03-C,"Usb Conn, 3.1 Type C, Plug, 24POS, SMT Rohs Compliant: Yes",,J2
+ERJ-2GE0R00X,3,Panasonic,ERJ-2GE0R00X,"SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose",RES SMD 0.0OHM JUMPER 1/10W 0402,"R1, R2, R16"
+ERJ-PA2F1001X,1,Panasonic,ERJ-PA2F1001X,Res Thick Film 0402 1K Ohm 1% 1/5W ±100ppm/°C Molded SMD Punched Paper T/R,RES SMD 1K OHM 1% 1/5W 0402,R5
+ERJ-2RKF2700X,1,Panasonic,ERJ-2RKF2700X,Res Thick Film 0402 270 Ohm 1% 0.1W(1/10W) +/-100ppm/C Molded SMD Automotive Punched T/R,RES SMD 270 OHM 1% 1/10W 0402,R6
+ERJ-2RKF5362X,2,Panasonic,ERJ-2RKF5362X,Res Thick Film 0402 53.6K Ohm 1% 1/10W ±100ppm/°C Molded SMD SMD Punched Carrier T/R,RES SMD 53.6K OHM 1% 1/10W 0402,"R9, R10"
+ERJ-2RKF2212X,3,Panasonic,ERJ-2RKF2212X,Resistor Thick Film 0402 22.1K Ohm 1% 0.1W (1/10W) ±100ppm/C Molded Surface Mount Automotive,RES SMD 22.1K OHM 1% 1/10W 0402,"R11, R15, R20"
+ERJ-2RKF3012X,1,Panasonic,ERJ-2RKF3012X,Res Thick Film 0402 30.1K Ohm 1% 1/10W +/-100ppm/ßC Molded SMD Punched Carrier T/R,RES SMD 30.1K OHM 1% 1/10W 0402,R12
+ERJ-2RKF5101X,2,Panasonic,ERJ-2RKF5101X,Res Thick Film 0402 5.1K Ohm 1% 1/10W ±100ppm/°C Molded SMD Punched Carrier T/R,RES SMD 5.1K OHM 1% 1/10W 0402,"R18, R22"
+ERJ-2RKF4752X,1,Panasonic,ERJ-2RKF4752X,Res Thick Film 0402 47.5K Ohm 1% 1/10W +/-100ppm/ßC Molded SMD Punched Carrier T/R,RES SMD 47.5K OHM 1% 1/10W 0402,R21
+JS202011JAQN,1,C&K Components,JS202011JAQN,Switch Slide ON ON DPDT Side Slide 0.3A 6VDC J-Bend SMD T/R,"Slide Switch DPDT Surface Mount, Right Angle",S1
+ESDR0502NMUTAG,2,onsemi,ESDR0502NMUTAG,ESDR0502N Series 5.5 V 0.3 pF Uni-Directional ESD Suppressor Diode Array -UDFN-6,"Ultra Low Capacitance ESD Protection Array for High Speed Data Line Protection, 6-Pin UDFN, Pb-Free, Tape and Reel","U1, U4"
+TPS77401DGK,1,Texas Instruments,TPS77401DGK,LDO Regulator Pos 1.5V to 5.5V 0.25A 8-Pin VSSOP Tube,"Single Output Fast Transient Response LDO, 250 mA, Adjustable 1.5 to 5.5 V Output, 2.7 to 10 V Input, with Power Good Output, 8-pin MSOP (DGK), -40 to 125 degC, Green (RoHS & no Sb/Br)",U2
+CP2102N-A02-GQFN24R,1,Silicon Labs,CP2102N-A02-GQFN24R,"Interface IC full speed USB to UART bridge USB 2.0 3.3V, CP2102N-A02-GQFN24R, VFQFN-24","USB Bridge, USB to UART USB 2.0 UART Interface 24-QFN _4x4_",U3

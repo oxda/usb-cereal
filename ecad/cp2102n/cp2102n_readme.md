@@ -1,0 +1,1 @@
+USB-Cereal ECAD files for CP2102N variant.

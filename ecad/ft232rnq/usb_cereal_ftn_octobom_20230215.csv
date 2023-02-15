@@ -1,0 +1,27 @@
+Query,Qty,Manufacturer,MPN,Part Description,Description,Schematic Reference
+,,,,,,
+JS202011JAQN,1,C&K Components,JS202011JAQN,Switch Slide ON ON DPDT Side Slide 0.3A 6VDC J-Bend SMD T/R,"Slide Switch DPDT Surface Mount, Right Angle",S1
+UJ32-C-H-G-SMT-TR,2,CUI Devices,UJ32-C-H-G-SMT-TR,"Type C, USB 3.2 Gen 2x2, 20 Gbps, 20 Vac, 5 A, Horizontal, Gold Flash, Surface Mount, USB Receptacle","Type C, USB 3.1 Gen 2, 5 A, Right Angle, Surface Mount _SMT_ , USB Receptacle","J1, J3"
+FT232RNQ,1,FTDI,FT232RNQ-REEL,USB to Full Handshake UART Interface QFN32 (not offered in your region),"USB Bridge, USB to UART USB 2.0 UART Interface 32-QFN _5x5_",U3
+DX07P024AJ1R1500,1,JAE Electronics,DX07P024AJ1R1500,Conn Plug USB3.1 Typec Brd Edge,"USB-C _USB TYPE-C_ USB 3.1 _USB 3.1 Gen 2, Superspeed+_ Plug Connector 24 Position Board Edge, Straddle Mount",J2
+LTST-C171GKT,1,Lite-On,LTST-C171GKT,LED Low-Power Uni-Color Green 565nm 2.1V 2-Pin Chip LED T/R,LED,D1
+LTST-C171KSKT,1,Lite-On,LTST-C171KSKT,Yellow 2 x 1.25 x 0.8 mm 130° Water Clear 50 mcd 2 V LED Surface Mount,LED,D2
+GRM033R60J105MEA2D,4,Murata,GRM033R60J105MEA2D,"Multilayer Ceramic Capacitor, 1 uF, 6.3 V, ± 20%, X5R, 0201 [0603 Metric]",CAP CER 1UF 6.3V X5R 0201,"C1, C2, C9, C10"
+GRM033R61A103KA01J,1,Murata,GRM033R61A103KA01J,0201 10 nF 10 V ±10% Tolerance X5R SMT Multilayer Ceramic Capacitor,CAP CER 10000PF 10V X5R 0201,C6
+GRM033R61A104KE15D,2,Murata,GRM033R61A104KE15D,"Multilayer Ceramic Capacitor, 0.1 uF, 10 V, ± 10%, X5R, 0201 [0603 Metric]",CAP CER 0.1UF 10V X5R 0201,"C3, C5"
+GRM033R61A225KE47D,2,Murata,GRM033R61A225KE47D,"Multilayer Ceramic Capacitor, 2.2 uF, 10 V, ± 10%, X5R, 0201 [0603 Metric]",CAP CER 2.2UF 10V X5R 0201,"C7, C8"
+GRM035R60J475ME15D,1,Murata,GRM035R60J475ME15D,"Multilayer Ceramic Capacitor, 4.7 uF, 6.3 V, ± 20%, X5R, 0201 [0603 Metric]",CAP CER 4.7UF 6.3V X5R 0201,C4
+PMDXB600UNEZ,2,Nexperia,PMDXB600UNEZ,"Dual Mosfet, Dual N Channel, 600 Ma, 20 V, 0.47 Ohm, 4.5 V, 700 Mv","Dual N-Channel Trench MOSFET, 20 V, 0.6 A, -55 to 150 degC, 8-Pin SOT1216","Q1, Q2"
+ESD7383NCTBG,1,onsemi,ESD7383NCTBG,"ESD Protection, 3-Line, Very Low Capacitance, for USB","USB-OTG 3-Line Protection, 4-Pin WLCSP, Pb-Free, Tape and Reel",U4
+ESDR0502NMUTAG,1,onsemi,ESDR0502NMUTAG,ESDR0502N Series 5.5 V 0.3 pF Uni-Directional ESD Suppressor Diode Array -UDFN-6,"Ultra Low Capacitance ESD Protection Array for High Speed Data Line Protection, 6-Pin UDFN, Pb-Free, Tape and Reel",U1
+ERJ-1GEF3012C,3,Panasonic,ERJ-1GEF3012C,Res Thick Film 0201 30.1K Ohm 1% 1/20W ±200ppm/°C Molded SMD Pressed Carrier T/R,RES SMD 30.1K OHM 1% 1/20W 0201,"R12, R17, R19"
+ERJ-1GN0R00C,5,Panasonic,ERJ-1GN0R00C,ERJ Series 0201 0 Ohm 0.05 W Jumper Surface Mount Thick Film Chip Resistor,RES SMD 0.0OHM JUMPER 1/20W 0201,"R1, R2, R7, R8, R16"
+ERJ-1GNF1001C,1,Panasonic,ERJ-1GNF1001C,Res Thick Film 0201 1K Ohm 1% 0.05W(1/20W) ±200ppm/C Pad SMD Automotive T/R,RES SMD 1K OHM 1% 1/20W 0201,R5
+ERJ-1GNF2212C,1,Panasonic,ERJ-1GNF2212C,Res Thick Film 0201 22.1K Ohm 1% 1/20W ±200ppm/°C Molded SMD SMD T/R,RES SMD 22.1K OHM 1% 1/20W 0201,R11
+ERJ-1GNF2700C,1,Panasonic,ERJ-1GNF2700C,Res Thick Film 0201 270 Ohm 1% 1/20W ±200ppm/°C Molded SMD T/R,RES SMD 270 OHM 1% 1/20W 0201,R6
+ERJ-1GNF5101C,1,Panasonic,ERJ-1GNF5101C,Res Thick Film 0201 5.1K Ohm 1% 1/20W ±200ppm/°C Molded SMD Pressed Carrier T/R,RES SMD 5.1K OHM 1% 1/20W 0201,R18
+ERJ-1GNF5362C,2,Panasonic,ERJ-1GNF5362C,Res Thick Film 0201 53.6K Ohm 1% 1/20W ±200ppm/°C Molded SMD SMD T/R,RES SMD 53.6K OHM 1% 1/20W 0201,"R9, R10"
+ERJ-1GNJ103C,1,Panasonic,ERJ-1GNJ103C,Res Thick Film 0201 10K Ohm 5% 0.05W(1/20W) ±200ppm/C Pad SMD Automotive T/R,RES SMD 10K OHM 5% 1/20W 0201,R20
+ERJ-1GNJ472C,1,Panasonic,ERJ-1GNJ472C,Res Thick Film 0201 4.7K Ohm 5% 0.05W(1/20W) ±200ppm/C Pad SMD Automotive T/R,RES SMD 4.7K OHM 5% 1/20W 0201,R15
+ERJ-2GEJ620X,2,Panasonic,ERJ-2GEJ620X,Res Thick Film 0402 62 Ohm 5% 1/10W ±200ppm/°C Molded SMD Punched Carrier T/R,RES SMD 62 OHM 5% 1/10W 0402,"R3, R4"
+TPS77401DGK,1,Texas Instruments,TPS77401DGK,LDO Regulator Pos 1.5V to 5.5V 0.25A 8-Pin VSSOP Tube,"Single Output Fast Transient Response LDO, 250 mA, Adjustable 1.5 to 5.5 V Output, 2.7 to 10 V Input, with Power Good Output, 8-pin MSOP (DGK), -40 to 125 degC, Green (RoHS & no Sb/Br)",U2

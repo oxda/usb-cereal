@@ -1,0 +1,232 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=usb-cereal.OutJob
+Description=
+TargetOutputMedium=Fabrication
+VariantName=Populated
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=PDF
+OutputMedium2_Type=Publish
+OutputMedium3=Folder Structure
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Fab Drawing
+OutputMedium4_Type=Publish
+OutputMedium5=Fabrication
+OutputMedium5_Type=GeneratedFiles
+OutputType1=Schematic Print
+OutputName1=Schematic Prints
+OutputCategory1=Documentation
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.99|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Tabloid|PaperIndex=3
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
+OutputType2=BOM_PartType
+OutputName2=Bill of Materials
+OutputCategory2=Report
+OutputDocumentPath2=[ActiveBOM Document]
+OutputVariantName2=Populated
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=3
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=General
+Configuration2_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1536|FormHeight=922|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration2_Name3=GroupOrder
+Configuration2_Item3=Comment=True|Footprint=True
+Configuration2_Name4=SortOrder
+Configuration2_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration2_Name5=VisibleOrder
+Configuration2_Item5=Comment=161|Description=260|Designator=161|Footprint=161|LibRef=161|Quantity=161|Fitted=100|Manufacturer 1=100|Manufacturer Part Number 1=100
+Configuration2_Name6=VisibleOrder_Base
+Configuration2_Item6=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=100|Manufacturer Part Number 1=100|Manufacturer Lifecycle 1=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Unit Price 1=100|Supplier Subtotal 1=100
+Configuration2_Name7=VisibleOrder_Consolidated
+Configuration2_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=100|Manufacturer Part Number 1=100|Manufacturer Lifecycle 1=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Unit Price 1=100|Supplier Subtotal 1=100|Quantity@Populated=100|Price@Populated=100
+Configuration2_Name8=VisibleOrder_Flat
+Configuration2_Item8=Comment=161|Description=260|Designator=161|Footprint=161|LibRef=161|Quantity=161|Fitted=100|Manufacturer 1=100|Manufacturer Part Number 1=100
+OutputType3=Gerber
+OutputName3=Gerber Files
+OutputCategory3=Fabrication
+OutputDocumentPath3=usb-cereal-pcb.PcbDoc
+OutputVariantName3=
+OutputEnabled3=1
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=1
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777220~1,16777221~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908296~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\dnv\Github\usb-cereal-dev\ecad\cp2102n\usb-cereal-pcb.PcbDoc
+OutputType4=NC Drill
+OutputName4=NC Drill Files
+OutputCategory4=Fabrication
+OutputDocumentPath4=usb-cereal-pcb.PcbDoc
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=2
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=True|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\dnv\Github\usb-cereal-dev\ecad\cp2102n\usb-cereal-pcb.PcbDoc
+OutputType5=Pick Place
+OutputName5=Generates pick and place files
+OutputCategory5=Assembly
+OutputDocumentPath5=usb-cereal-pcb.PcbDoc
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=1
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=4
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Package / Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57,Type:0|Column#18=Name:Lead Style,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#19=Name:Check_prices,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#20=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#21=Name:C Max (pF),Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#22=Name:Number of Lines,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53,Type:0|Column#23=Name:Height - Seated (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#24=Name:Number of Terminations,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54,Type:0|Column#25=Name:Power Good,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67,Type:0|Column#26=Name:Vout Adj(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:95,Type:0|Column#27=Name:SnapEDA_Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75,Type:0|Column#28=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:93,Type:0|Column#29=Name:Minimum Quantity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#30=Name:Vout Adj(Max)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:94,Type:0|Column#31=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63,Type:0|Column#32=Name:Iq(Typ)(mA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#33=Name:MP,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#34=Name:Part Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64,Type:0|Column#35=Name:V(BR) Min (V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:88,Type:0|Column#36=Name:Power (Watts),Fixed:False,Metric:False,Visible:False,Sort:None,Position:66,Type:0|Column#37=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61,Type:0|Column#38=Name:Supplier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:82,Type:0|Column#39=Name:Ratings,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71,Type:0|Column#40=Name:IR Max (uA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#41=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#42=Name:Applications,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#43=Name:Thickness (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:85,Type:0|Column#44=Name:Eco-Plan,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#45=Name:VRWM Max (V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:96,Type:0|Column#46=Name:Packing,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62,Type:0|Column#47=Name:Quantity Available,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70,Type:0|Column#48=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#49=Name:Vdo(Typ)(mV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:90,Type:0|Column#50=Name:PPK Max (W),Fixed:False,Metric:False,Visible:False,Sort:None,Position:68,Type:0|Column#51=Name:CUI_purchase_URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#52=Name:Size / Dimension,Fixed:False,Metric:False,Visible:False,Sort:None,Position:74,Type:0|Column#53=Name:Factory Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#54=Name:Availability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#55=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77,Type:0|Column#56=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:86,Type:0|Column#57=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:81,Type:0|Column#58=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#59=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#60=Name:Supplier Device Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80,Type:0|Column#61=Name:Unit Price (USD),Fixed:False,Metric:False,Visible:False,Sort:None,Position:87,Type:0|Column#62=Name:Failure Rate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#63=Name:Supplier 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:78,Type:0|Column#64=Name:Code_JEDEC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#65=Name:MF,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#66=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72,Type:0|Column#67=Name:Supplier 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:79,Type:0|Column#68=Name:PartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65,Type:0|Column#69=Name:@ qty,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#70=Name:Digi-Key Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#71=Name:Composition,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#72=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#73=Name:Direction,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#74=Name:Datasheets,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#75=Name:Temperature Coefficient,Fixed:False,Metric:False,Visible:False,Sort:None,Position:84,Type:0|Column#76=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58,Type:0|Column#77=Name:Accuracy(%),Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#78=Name:SubFamily,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76,Type:0|Column#79=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#80=Name:Iout(Max)(A),Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#81=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56,Type:0|Column#82=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:89,Type:0|Column#83=Name:Image,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#84=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59,Type:0|Column#85=Name:Lead Spacing,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|Column#86=Name:Vin(Max)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:91,Type:0|Column#87=Name:Series,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73,Type:0|Column#88=Name:Vin(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:92,Type:0|Column#89=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#90=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#91=Name:Features,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#92=Name:Mounting Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|Column#93=Name:Supplier Part Number 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:83,Type:0|Column#94=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#95=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60,Type:0|Column#96=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69,Type:0|Column#97=Name:Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55,Type:0|DocumentPath=C:\Users\dnv\Github\usb-cereal-dev\ecad\cp2102n\usb-cereal-pcb.PcbDoc
+
+[PublishSettings]
+OutputFilePath2=C:\Users\dnv\ee\board\cereal\ecad\Project Outputs for cereal\cereal-sch.PDF
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for usb-cereal
+OutputPathMedia2=
+OutputPathMediaValue2=schematics
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=cereal-sch
+OutputFileNameMulti2=
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=1
+PromptOverwrite2=1
+PublishMethod2=0
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=0
+FitPCBPrintSizeToDoc2=0
+GenerateNetsInfo2=1
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+GenerateTOC2=1
+ShowComponentParameters2=1
+GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=Default
+OutputFilePath3=C:\Users\dnv\Github\usb-cereal-dev\ecad\cp2102n\Project Outputs for usb-cereal\fab\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for usb-cereal
+OutputPathMedia3=
+OutputPathMediaValue3=fab
+OutputPathOutputer3=[Output Type]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=
+OutputFileNameMulti3=
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=1
+OutputFilePath4=G:\My Drive\dnv-projects\android-serial\Project Outputs for cereal\cereal.PDF
+ReleaseManaged4=1
+OutputBasePath4=Project Outputs for usb-cereal
+OutputPathMedia4=
+OutputPathMediaValue4=
+OutputPathOutputer4=[Output Type]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=cereal-fab.PDF
+OutputFileNameMulti4=
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=1
+PromptOverwrite4=1
+PublishMethod4=0
+ZoomLevel4=54
+FitSCHPrintSizeToDoc4=1
+FitPCBPrintSizeToDoc4=1
+GenerateNetsInfo4=1
+MarkPins4=1
+MarkNetLabels4=1
+MarkPortsId4=1
+GenerateTOC4=1
+ShowComponentParameters4=1
+GlobalBookmarks4=0
+PDFACompliance4=Disabled
+PDFVersion4=Default
+OutputFilePath5=C:\Users\dnv\Github\usb-cereal-dev\ecad\cp2102n\Project Outputs for usb-cereal\
+ReleaseManaged5=1
+OutputBasePath5=Project Outputs for usb-cereal
+OutputPathMedia5=
+OutputPathMediaValue5=
+OutputPathOutputer5=[Output Type]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=Ok2Fab
+OutputFileName5=
+OutputFileNameMulti5=
+UseOutputNameForMulti5=1
+OutputFileNameSpecial5=
+OpenOutput5=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=C:\Users\dnv\ee\board\cereal\ecad\Project Outputs for cereal\cereal-sch.PDF
+OpenOutputs2=1
+RelativeOutputPath3=C:\Users\dnv\Github\usb-cereal-dev\ecad\cp2102n\Project Outputs for usb-cereal\fab\
+OpenOutputs3=1
+AddToProject3=1
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=G:\My Drive\dnv-projects\android-serial\Project Outputs for cereal\cereal.PDF
+OpenOutputs4=1
+RelativeOutputPath5=C:\Users\dnv\Github\usb-cereal-dev\ecad\cp2102n\Project Outputs for usb-cereal\
+OpenOutputs5=1
+AddToProject5=1
+TimestampFolder5=0
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
+
