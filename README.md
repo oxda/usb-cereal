@@ -21,5 +21,5 @@ CrowdSupply campaign: https://www.crowdsupply.com/0xda/usb-cereal
 All the work is licensed under Apache 2.0 license. Changes from the original project: BOM optimization, addition of the CP2102N and FT232RNQ versions.
 
 # Thanks and Attributions 
-- Thanks to Google for supporting and releasing the original work: (GitHub)[https://github.com/google/usb-cereal]
-- Thanks to Kevin Balke for brewing up the most awesome logo for the project! (Instagram)[https://www.instagram.com/fughilli/], (GitHub)[https://github.com/fughilli]
+- Thanks to Google for supporting and releasing the original work: [GitHub](https://github.com/google/usb-cereal)
+- Thanks to Kevin Balke for brewing up the most awesome logo for the project! [Instagram](https://www.instagram.com/fughilli/), [GitHub](https://github.com/fughilli)
