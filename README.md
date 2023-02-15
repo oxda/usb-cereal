@@ -8,7 +8,7 @@ USB-Cereal is a powerful, fully open source development tool that simplifies tes
 /mcad [WIP] contains mechanical enclosure.
 /ecad [WIP] contains entire USB-Cereal project done in Altium.
 
-# FT232RQ vs FT232RNQ vs CP2102N
+## FT232RQ vs FT232RNQ vs CP2102N
 As FTDI chips have intermittent supply issues we have also qualified CP2102N for the application. This IC is widely available, and is generally equally well equipped and compatible with major OSes. 
 
 # Notes
@@ -20,6 +20,5 @@ CrowdSupply campaign: https://www.crowdsupply.com/0xda/usb-cereal
 # License
 All the work is licensed under Apache 2.0 license. Changes from the original project: BOM optimization, addition of the CP2102N and FT232RNQ versions.
 
-# Thanks and Attributions 
-- Thanks to Google for supporting and releasing the original work: [GitHub](https://github.com/google/usb-cereal)
-- Thanks to Kevin Balke for brewing up the most awesome logo for the project! [Instagram](https://www.instagram.com/fughilli/), [GitHub](https://github.com/fughilli)
+# Documentation
+Most up to date documentation can be found on [this repo's wiki](https://github.com/oxda/usb-cereal/wiki).
