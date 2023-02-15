@@ -18,4 +18,8 @@ Initial release contains a mistake where CC1/CC2 pins are tied together and shar
 CrowdSupply campaign: https://www.crowdsupply.com/0xda/usb-cereal
 
 # License
-All the work is licensed under Apache 2.0 license. This project is the derivative from the (original project published by Google)[https://github.com/google/usb-cereal]. Changes from the original project: BOM optimization, addition of the CP2102N and FT232RNQ versions.
+All the work is licensed under Apache 2.0 license. Changes from the original project: BOM optimization, addition of the CP2102N and FT232RNQ versions.
+
+# Thanks and Attributions 
+Thanks to Google for supporting and releasing the original work: (GitHub)[https://github.com/google/usb-cereal]
+Thanks to Kevin Balke for brewing up the most awesome logo for the project! ((Instagram)[https://www.instagram.com/fughilli/], (GitHub)[https://github.com/fughilli]) 
